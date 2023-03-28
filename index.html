@@ -5,35 +5,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/theme.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="https://kit.fontawesome.com/4df7e684b7.js" crossorigin="anonymous"></script>
     <title>PZ Server Yahargul</title>
 </head>
 
-<body>
+<body id='body' class="darkModeSwitcher">
 
-    <head>
+    <header>
+        <div class="maintitle">
+            <h1>Yahargul</h1>
+        </div>
         <nav>
             <ul>
-                <li>Ingreso</li>
-                <li>Reglas</li>
-                <li>Donaciones</li>
+                <li><button aria-label="" class="button-nav">
+                        <span class="nav-icon">Ingreso
+                        </span></i>
+                    </button></li>
+                <li><button aria-label="" class="button-nav">
+                        <span class="nav-icon">Reglas
+                        </span></i>
+                    </button></li>
+                <li><button aria-label="" class="button-nav">
+                        <span class="nav-icon">Donaciones
+                        </span></i>
+                    </button></li>
+                <li><button aria-label="" class="button-nav" id="btn-theme">
+                        <i aria-hidden="true" class="fas fa-lightbulb"><span id="text-theme" class="nav-icon">Modo
+                                Oscuro
+                            </span></i>
+                    </button></li>
             </ul>
         </nav>
-    </head>
+    </header>
 
-    <body>
+    <main>
         <article>
 
         </article>
         <aside>
             <!-- Aqui iria un banner o integrar API con informacion real del servidor o control panel. -->
         </aside>
-    </body>
+    </main>
     <footer>
         <section></section>
         <section>
             <!-- Aqui se pondra informacion de contacto. -->
         </section>
     </footer>
+
 </body>
+<script src="/assets/js/theme.js"></script>
 
 </html>

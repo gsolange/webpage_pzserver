@@ -1,0 +1,86 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    background-color: var(--main-background-color);
+    box-sizing: border-box;
+}
+
+.lightModeSwitcher {
+    --background-color: #FAFAFA;
+    --header-background-color: #E0E0E0;
+    --main-background-color: #EEEEEE;
+    --color: #424242;
+    --hover-botones: #BDBDBD;
+    --hover-input: #BDBDBD;
+    --input-color: #E0E0E0;
+    --thumb-color: #30343F;
+    transition: ease .3s;
+}
+
+.darkModeSwitcher {
+    --background-color: #252935;
+    --header-background-color: #191E2B;
+    --main-background-color: #30343F;
+    --color: #EEEEEE;
+    --hover-input: #4E5565;
+    --input-color: #393e49;
+    --thumb-color: #EEEEEE;
+    transition: ease .3s;
+}
+
+/* HEADER */
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    justify-content: center;
+    padding: 40px;
+    text-decoration: none;
+    list-style: none;
+    color: var(--color);
+}
+
+.button-nav {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 10px 0;
+    border-radius: 3px;
+    color: var(--color);
+    border: none;
+    width: 100%;
+}
+
+.button-nav span {
+    background-color: transparent;
+}
+
+.button-nav i {
+    background-color: transparent;
+    font-weight: normal;
+}
+
+.nav-icon {
+    margin-left: 5px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.button-nav:hover {
+    background-color: var(--hover-input);
+    cursor: pointer;
+}
+
+.maintitle {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color);
+}
+
+/* MAIN */
+
+
+
+/* FOOTER */
